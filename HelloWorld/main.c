@@ -13,7 +13,7 @@
 // Return-Type Function-Name(Parameters)
 int main()
 {
-	//data taye
+	
 	printf("Hello, world!\n");
 	return 0;
 }
