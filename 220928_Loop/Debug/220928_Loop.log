@@ -1,0 +1,4 @@
+﻿  main.c
+C:\c\220928_Loop\main.c(30,6): warning C4013: 'star' undefined; assuming extern returning int
+C:\c\220928_Loop\main.c(44): warning C4715: 'star': not all control paths return a value
+  220928_Loop.vcxproj -> C:\c\220928_Loop\Debug\220928_Loop.exe
