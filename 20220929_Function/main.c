@@ -27,18 +27,23 @@
 //}
 
 int main() {
-	int i = 1;
-	int n = 5;
-	for (i = 1; i <= n;i++) {
-		
-		if (2*i-1 == ) { // 2*i-1이랑 (i마다 정해진값생김)
-			printf("**\n");
-			i++;
-		}
-		else {
-			printf("*");
-		}
+	int n = 0;
+	printf("피라미드 높이 입력하세요: ");
+	scanf_s("%d",&n);
+	int j = 1;
+	int xn = n/2;
+	int yn = (n%2)*(xn+1);
+	int zn = (1+n)*xn+yn;
+	for (int i = 1; i <= zn; i++) {
+		printf("*");
 
+		int xj = j / 2;
+		int yj= (j % 2) * (xj + 1);
+		int zj = (1 + j) * xj + yj;
+		if (i == zj) {
+			printf("\n");
+			j++;
+		}
 	}
-	return 0;
+
 }
