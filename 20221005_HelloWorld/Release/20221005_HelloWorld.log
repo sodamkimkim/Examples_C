@@ -1,0 +1,6 @@
+﻿  main.c
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  20221005_HelloWorld.vcxproj -> C:\c\20221005_HelloWorld\Release\20221005_HelloWorld.exe
