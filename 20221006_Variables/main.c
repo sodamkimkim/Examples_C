@@ -2,7 +2,7 @@
 #include <limits.h>
 int main()
 {
-	// 변수(Variable)
+	// # 변수(Variable)
 	// 변수 선언(Variable Declaration)
 	int val = 10;	
 	val = 5;
@@ -53,10 +53,10 @@ int main()
 	printf("long long %d byte, %p\n", sizeof(ll), &ll);
 
 	printf("===================================\n");
-	// 실수형(Floating-Point Type)
-	// 부동소수점(Floating-Point)
+	// # 실수형(Floating-Point Type)
+	// # 부동소수점(Floating-Point)
 	float f = 1.1f; // float f = 1.1 이렇게 f 안붙이면 double을 float에다가 넣는 거임.
-	// double은 두배 더 정확도 가진 실수 이다. 엄연히 다름.
+	// # double은 두배 더 정확도 가진 실수 이다. 엄연히 다름.
 	// float쓸 땐 f 붙여주자.
 	// float : 4byte, double: 8byte
 	printf("float %d byte, %p\n", sizeof(f), &f);
@@ -68,7 +68,7 @@ int main()
 	printf("long double %d byte, %p\n", sizeof(ld), &ld);
 	printf("===================================\n");
 	
-	// 부동 소숫점 오차
+	// # 부동 소숫점 오차
 	// 오차가 생긴다는 것을 인지 하고 대응해줘야 한다.
 	// 컴퓨터가 부동소숫점을 계산하기 위해서 희안한 방법을 쓰기 때문임.
 	int idx = 0;
