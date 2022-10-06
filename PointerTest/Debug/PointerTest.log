@@ -1,0 +1,4 @@
+﻿  main.c
+C:\c\PointerTest\main.c(11,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+C:\c\PointerTest\main.c(14,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double *'
+  PointerTest.vcxproj -> C:\c\PointerTest\Debug\PointerTest.exe
