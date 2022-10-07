@@ -1,0 +1,5 @@
+﻿  main.c
+C:\c\pointertest2\main.c(5,9): warning C4477: 'printf' : format string '%X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+C:\c\pointertest2\main.c(6,9): warning C4477: 'printf' : format string '%X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+C:\c\pointertest2\main.c(4,1): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int'
+  pointertest2.vcxproj -> C:\c\pointertest2\Debug\pointertest2.exe
