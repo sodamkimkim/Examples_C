@@ -1,0 +1,4 @@
+﻿  main.c
+C:\c\20221011_Loop\main.c(33,9): warning C4476: 'printf' : unknown type field character 'r' in format specifier
+C:\c\20221011_Loop\main.c(25,1): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  20221011_Loop.vcxproj -> C:\c\20221011_Loop\Debug\20221011_Loop.exe

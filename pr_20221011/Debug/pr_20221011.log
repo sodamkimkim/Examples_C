@@ -1,0 +1,3 @@
+﻿  main.c
+C:\c\pr_20221011\main.c(35,2): warning C4098: 'main': 'void' function returning a value
+  pr_20221011.vcxproj -> C:\c\pr_20221011\Debug\pr_20221011.exe
