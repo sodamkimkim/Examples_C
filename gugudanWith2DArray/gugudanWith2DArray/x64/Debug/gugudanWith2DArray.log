@@ -1,0 +1,6 @@
+﻿  main.c
+C:\c\gugudanWith2DArray\gugudanWith2DArray\main.c(42,18): warning C4047: '함수': 'int (*)[9]'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\c\gugudanWith2DArray\gugudanWith2DArray\main.c(42,15): warning C4024: 'Print2DArray': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\c\gugudanWith2DArray\gugudanWith2DArray\main.c(62,14): warning C4047: 'return': 'int *'의 간접 참조 수준이 'int [9][9]'과(와) 다릅니다.
+C:\c\gugudanWith2DArray\gugudanWith2DArray\main.c(62): warning C4172: 지역 변수 또는 임시: arr2D의 주소를 반환하고 있습니다.
+  gugudanWith2DArray.vcxproj -> C:\c\gugudanWith2DArray\x64\Debug\gugudanWith2DArray.exe
