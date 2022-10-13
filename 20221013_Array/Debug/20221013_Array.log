@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\admin\source\repos\20221013_Array\main.c(56,1): warning C4047: 'initializing': 'int' differs in levels of indirection from 'int (*)[3]'
+  20221013_Array.vcxproj -> C:\Users\admin\source\repos\20221013_Array\Debug\20221013_Array.exe
