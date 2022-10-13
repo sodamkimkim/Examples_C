@@ -69,9 +69,11 @@ int main() {
 	//////////////////////////////
 	printf("\n");
 	int printArr[4] = { 1,2,3,4 };
+	printf("size: %u\n", sizeof(printArr));
+
 	PrintArray(printArr, sizeof(printArr)/sizeof(printArr[0]));
-	printf("???%p\n\n", printArr);
-	printf("???%d\n\n", printArr[0]);
+	printf("printArr 주소: %p\n\n", printArr);
+	printf("???@@@@@@@@@@%d\n\n", printArr[0]);
 	// 함수 호출할 때,, 배열을 매개변수로 넣어주면 주소가 복사된다.
 	// 즉 호출된 함수 매개로 던져지는 배열에는 주소값만 가지고 sizeof로 출력해보면 주소값 그자체의 size만 출력된다.
 	// 배열이 생성된 곳에서 sizeof를 찍어보면 주소의 크기가 아니라 배열자체의 크기가 출력됨을 알 수 있다.
@@ -86,8 +88,8 @@ int main() {
 }
 void PrintArray(int _arr[], int _arrLen)
 {
-	printf("_arr Address : %p\n", _arr);
-
+	printf("_arr[] Address : %p\n", _arr);
+	printf("size: %u\n", sizeof(_arr));
 	for (int i = 0; i < _arrLen; ++i) {
 		printf("_arr[%d]: %d\n", i, _arr[i]);
 	}
