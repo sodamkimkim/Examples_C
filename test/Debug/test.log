@@ -1,0 +1,3 @@
+﻿  main.c
+C:\c\test\main.c(72,2): warning C4098: 'main': 'void' function returning a value
+  test.vcxproj -> C:\c\test\Debug\test.exe

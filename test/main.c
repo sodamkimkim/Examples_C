@@ -3,18 +3,13 @@
 
 
 void main() {
-	unsigned char num = 0;
-		int i = 0;
+	char num = 0;
+	int i = 0;
 
-printf("값을 입력해주세용\n");
+	printf("값을 입력해주세용\n");
 
 	scanf_s("%hhd", &num);
-
-
-
-	printf("", num);
-
-
+	printf("%d\n", num);
 
 	// 1
 
@@ -57,16 +52,24 @@ printf("값을 입력해주세용\n");
 	for (i = 0; i < 8; ++i) {
 
 		printf("%d", (num & (0x80 >> i)) >> (7 - i));
-
-
-
+		//0000 0000
 		if (i == 3)
-
 			printf(" ");
 
 	}
 
+	///////////
+	//for (int i =7; i >= 0; --i) {
+	//	int result = 0;
+	//	result = num >> i & 1;
+	//	printf("%d", result);
+	//	if (i %4 ==0) {
 
+	//	printf(" ");
+	//		}
+	//	
+	//}
+	return 0;
 
 }
 
