@@ -1,0 +1,6 @@
+﻿  main.c
+C:\c\20221019_Pointer\main.c(112,19): warning C4047: '=': 'int **' differs in levels of indirection from 'int *(*)[2]'
+C:\c\20221019_Pointer\main.c(34,1): warning C4133: 'initializing': incompatible types - from 'int *' to 'float *'
+C:\c\20221019_Pointer\main.c(81,1): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int (*)[3]'
+C:\c\20221019_Pointer\main.c(82,1): warning C4047: 'initializing': 'int **' differs in levels of indirection from 'int (*)[3]'
+  20221019_Pointer.vcxproj -> C:\c\20221019_Pointer\Debug\20221019_Pointer.exe
