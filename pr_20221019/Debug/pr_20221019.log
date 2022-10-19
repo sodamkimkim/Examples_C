@@ -1,2 +1,5 @@
 ﻿  main.c
+C:\c\pr_20221019\main.c(108,19): warning C4047: '=': 'int **' differs in levels of indirection from 'int *(*)[2]'
+C:\c\pr_20221019\main.c(59,1): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int (*)[3]'
+C:\c\pr_20221019\main.c(60,1): warning C4047: 'initializing': 'int **' differs in levels of indirection from 'int (*)[3]'
   pr_20221019.vcxproj -> C:\c\pr_20221019\Debug\pr_20221019.exe
