@@ -15,6 +15,7 @@ void PrintArray2D(int** _ppArr, int _rowCnt, int _colCnt);
 int main() {
 	int var = 10;
 	int* pVar = &var;
+
 	printf("pVar(%p) == &var(%p)\n", pVar, &var);
 	*pVar = 20;
 	printf("*pVar(%d), var(%d)\n", *pVar, var);
