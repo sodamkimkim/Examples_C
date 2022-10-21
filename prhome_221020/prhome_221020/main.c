@@ -1,32 +1,18 @@
 #include <stdio.h>
-int main(void)
-{
-	int ary1[4] = { 1, 2, 3, 4 };
-	int ary2[4] = { 11, 12, 13, 14 };
-	int ary3[4] = { 21,22,23,24 };
-	int* pary[3] = { ary1, ary2, ary3 };
+// 마지막에 LEN을 넣어서 활용할 수 있음
+enum EIdx { A, B, C, D, LEN };
 
-	double dary1[4] = { 1, 2, 3, 4 };
-	double dary2[4] = { 11, 12, 13, 14 };
-	double dary3[4] = { 21,22,23,24 };
-	double* pdary[3] = { dary1, dary2, dary3 };
 
-	for (int i = 0; i < 3; i++) {
-		for (int j = 0; j < 4; j++) {
-			printf("%d, %p\n", pary[i][j], &pary[i][j]);
-			printf("%d, %p\n", *(pary[i]+j), &*(pary[i] + j)); // 주소 4byte씩 증가
-		}
-		printf("\n");
-	}
-		printf("\n");
-		printf("\n");
+int main() {
+	enum EIdx idx;
+	printf("idx Size : %d byte\n", sizeof(idx));
+	printf("idx Address: %p\n", &idx);
 
-	for (int i = 0; i < 3; i++) {
-		for (int j = 0; j < 4; j++) {
-			printf("%.1lf, %p\n", pdary[i][j], &pdary[i][j]);
-			printf("%.1lf, %p\n", *(pdary[i] + j), &*(pdary[i] + j)); // 주소 8byte씩 증가 => 포인터 주소크기가 아니라 해당변수 자료형크기만큼 증가(double)
-		}
-		printf("\n");
-	}
+	// 따로 초기화 하지 않아도 0,1,2,3 값이 들어가 있다.
+	printf("A: %d\n", A);
+	printf("B: %d\n", B);
+	printf("C: %d\n", C);
+	printf("D: %d\n", D);
+	//A = 100; // -> 열거체의 요소는 상수라서 바뀌지 않는다.
 	return 0;
 }

@@ -1,2 +1,4 @@
 ﻿  main.c
+C:\c\prhome_221020\prhome_221020\main.c(8,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\c\prhome_221020\prhome_221020\main.c(8,9): message : consider using '%zd' in the format string
   prhome_221020.vcxproj -> C:\c\prhome_221020\x64\Debug\prhome_221020.exe
