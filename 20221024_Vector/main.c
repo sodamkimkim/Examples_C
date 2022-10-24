@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <malloc.h>
 
-
-// 벡터 쓸 때 메모리 복사해서 확장할 때마다 기존의 것을 해제해 줘야 한다. 그것을 편리하게 하기 위해서 매크로로 만든다.
+// 벡터 쓸 때 메모리 복사해서 확장할 때마다 기존의 것을 해제해 줘야 한다. 
+// 그것을 편리하게 하기 위해서 매크로로 만든다.
 // # 매크로(Macro)
 // ㄴ 함수를 가지고 define사용할 수 있다.
 // P가 널이면 거짓이니까 수행안된다. NULL이 아니면 주소를 받았다는 것이니까 조건문 실행된다.
@@ -62,8 +62,8 @@ void InitDataAtArray(int* const _pArr, int _len, int* const _pIdx)
 	for (int i = 0; i < _len; ++i)
 	{
 		*(_pArr + i) = i + 1;
-	++(*_pIdx);
-	//(*_pIdx) = _len;
+		++(*_pIdx);
+		//(*_pIdx) = _len;
 	}
 }
 void PrintArray(const int* const _pArr, int _len, int _idx)
@@ -83,8 +83,6 @@ void AddData(int** const _pArr, int* const _pLen, int* const _pIdx, int _data)
 	{
 		//확장
 		ExtendArray(_pArr, _pLen);
-
-		return;
 	}
 	*((*_pArr) + (*_pIdx)) = _data;
 	++(*_pIdx);
@@ -104,9 +102,7 @@ void ExtendArray(int** _pArr, int* const _pLen)
 	printf("Extend Success : %d -> %d\n", preLen, *_pLen);
 	// 3. 기존 데이터 복사
 	for (int i = 0; i < preLen; ++i)
-	{
-		*(pNewArr + i) =*(*(_pArr) + i);
-	}
+		*(pNewArr + i) = *(*(_pArr)+i);
 	// 4. 기존 데이터 해제
 	SAFE_FREE((*_pArr));
 	// 5. 포인터에 새로운 배열 연결
