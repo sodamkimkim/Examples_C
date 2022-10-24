@@ -1,0 +1,6 @@
+﻿  LinkedList.c
+C:\c\pr_LinkedList\LinkedList.c(57,28): warning C4028: formal parameter 1 different from declaration
+  Test_LinkedList.c
+  Generating Code...
+C:\c\pr_LinkedList\LinkedList.c(94): warning C4716: 'SLL_GetNodeCount': must return a value
+  pr_LinkedList.vcxproj -> C:\c\pr_LinkedList\Debug\pr_LinkedList.exe
