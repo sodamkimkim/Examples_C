@@ -63,7 +63,6 @@ void InitDataAtArray(int* const _pArr, int _len, int* const _pIdx)
 	{
 		*(_pArr + i) = i + 1;
 		++(*_pIdx);
-		//(*_pIdx) = _len;
 	}
 }
 void PrintArray(const int* const _pArr, int _len, int _idx)
@@ -78,7 +77,7 @@ void PrintArray(const int* const _pArr, int _len, int _idx)
 }
 void AddData(int** const _pArr, int* const _pLen, int* const _pIdx, int _data)
 {
-	if (!_pArr || !(*_pArr)) return; // pArr가 없으면 참이 되어서 return
+	if (!_pArr || !(*_pArr)) return; // pArr가 없으면 조건문 참이 되어서 return
 	if (*_pIdx == *_pLen)
 	{
 		//확장
@@ -92,7 +91,7 @@ void ExtendArray(int** _pArr, int* const _pLen)
 	// 0. 이전 길이 저장해 두기.
 	int preLen = (*_pLen);
 	// 1. 길이 늘리기
-	(*_pLen) <<= 1;
+	(*_pLen) <<= 1;// 길이 두배로 확장 ( : vector특징)
 	// 2. 늘어난 길이만큼 동적할당.
 	int* pNewArr = (int*)malloc(sizeof(int) * (*_pLen));
 	if (!pNewArr) {
