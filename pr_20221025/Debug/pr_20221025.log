@@ -1,4 +1,2 @@
 ﻿  main.c
-C:\c\pr_20221025\main.c(16,40): warning C4114: same type qualifier used more than once
-C:\c\pr_20221025\main.c(43,40): warning C4114: same type qualifier used more than once
   pr_20221025.vcxproj -> C:\c\pr_20221025\Debug\pr_20221025.exe
