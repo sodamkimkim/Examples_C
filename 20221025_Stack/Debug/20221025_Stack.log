@@ -1,0 +1,3 @@
+﻿  main.c
+C:\c\20221025_Stack\main.c(59,26): warning C4098: 'PrintAll': 'void' function returning a value
+  20221025_Stack.vcxproj -> C:\c\20221025_Stack\Debug\20221025_Stack.exe
