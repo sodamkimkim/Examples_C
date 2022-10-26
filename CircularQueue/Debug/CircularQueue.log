@@ -1,0 +1,13 @@
+﻿  main.c
+C:\c\CircularQueue\main.c(11,40): warning C4114: same type qualifier used more than once
+C:\c\CircularQueue\main.c(16,40): warning C4114: same type qualifier used more than once
+C:\c\CircularQueue\main.c(22,45): warning C4114: same type qualifier used more than once
+C:\c\CircularQueue\main.c(43,40): warning C4114: same type qualifier used more than once
+C:\c\CircularQueue\main.c(46,24): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\c\CircularQueue\main.c(46,43): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\c\CircularQueue\main.c(46,61): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\c\CircularQueue\main.c(51,60): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+C:\c\CircularQueue\main.c(72,45): warning C4114: same type qualifier used more than once
+C:\c\CircularQueue\main.c(77,52): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\c\CircularQueue\main.c(60): warning C4715: 'Put': not all control paths return a value
+  CircularQueue.vcxproj -> C:\c\CircularQueue\Debug\CircularQueue.exe
