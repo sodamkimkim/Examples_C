@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <malloc.h>
 #define SAFE_FREE(p) do{if(p){free(p);p=NULL;}}while(0);
 #define QUEUESIZE 5
 #define ERROR_CODE_NULLPOINTER -1111

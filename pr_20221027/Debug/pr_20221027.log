@@ -1,0 +1,3 @@
+﻿  Test_ArrayStack.c
+C:\c\pr_20221027\Test_ArrayStack.c(19,32): warning C4013: 'AS_Pop' undefined; assuming extern returning int
+  pr_20221027.vcxproj -> C:\c\pr_20221027\Debug\pr_20221027.exe
